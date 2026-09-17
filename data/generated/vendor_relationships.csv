@@ -1,0 +1,19 @@
+relationship_id,vendor_1,vendor_2,relationship_type,relationship_value,confidence
+R01,V001,V002,shared_director,DIR1001 (R. Kumar),0.99
+R02,V001,V002,shared_address,"Plot 42, Industrial Area, Solan",0.98
+R03,V001,V003,shared_address,"Plot 42, Industrial Area, Solan",0.96
+R04,V006,V012,shared_director,DIR1006 (S. Singhania),0.97
+R05,V015,V016,shared_phone,+91-177-2804500,0.95
+R06,V015,V016,shared_email,@everest-zenith-group.com,0.95
+R07,V004,V008,common_parent,Northern Infra Holdings LLP,0.92
+R08,V007,V011,shared_director,DIR1007 (Anil Sharma),0.96
+R09,V010,V014,shared_address,"Plot 14, Industrial Area, Phase 2, Mandi",0.94
+R10,V018,V022,shared_director,DIR1018 (P. Verma),0.95
+R11,V025,V030,shared_phone,+91-9816044321,0.91
+R12,V033,V037,common_parent,Shivalik Construction Holdings,0.93
+R13,V020,V024,shared_address,"Sector 4, Parwanoo, HP",0.94
+R14,V009,V013,shared_director,DIR1009 (M. Gupta),0.96
+R15,V040,V045,shared_email,admin@apex-united.org,0.9
+R16,V028,V032,shared_director,DIR1028 (R. K. Mehra),0.97
+R17,V005,V019,shared_phone,+91-1792-221190,0.92
+R18,V041,V046,common_parent,Himalayan Consortium India,0.94

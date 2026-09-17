@@ -1,0 +1,51 @@
+vendor_id,vendor_name,registration_number,director_id,registered_address,city,state,phone,email,company_type,registration_date,industry_category
+V001,BuildRight Infra Pvt Ltd,CIN-U45200HP2010PTC100000,DIR1001,"Plot 42, Industrial Area, Solan",Shimla,Himachal Pradesh,+91-1792-234501,compliance@buildrightinfra.in,Private Limited,2012-01-01,Road Infrastructure
+V002,Apex Constructions Ltd,CIN-U45200HP2011PTC100137,DIR1001,"Plot 42, Industrial Area, Solan",Solan,Himachal Pradesh,+91-1792-234501,compliance@apexinfra.in,Limited,2012-03-14,Civil Construction
+V003,Shiva Infra JV,CIN-U45200HP2012PTC100274,DIR1002,"Plot 42, Industrial Area, Solan",Mandi,Himachal Pradesh,+91-1792-234502,contact@shivainfra.in,Partnership,2012-05-26,Water & Sanitation
+V004,Skyline Civil Tech,CIN-U45200HP2013PTC100411,DIR1003,"Plot 4, Industrial Area, Phase 4",Dharamshala,Himachal Pradesh,+91-9800520473,tenders@skyline.in,LLP,2012-08-07,Electrical & Energy
+V005,Bharat Earthmovers & Infra,CIN-U45200HP2014PTC100548,DIR1004,"Plot 5, Industrial Area, Phase 1",Chandigarh,Punjab,+91-9800693964,tenders@bharat.in,Proprietary,2012-10-19,Road Infrastructure
+V006,Krishna Roadways & Infra,CIN-U45200HP2015PTC100685,DIR1006,"Plot 6, Industrial Area, Phase 2",Mohali,Punjab,+91-172-278905,info@krishna.com,Private Limited,2012-12-31,Civil Construction
+V007,Himalaya Foundations,CIN-U45200HP2016PTC100822,DIR1006,"Plot 7, Industrial Area, Phase 3",Ludhiana,Punjab,+91-9801040946,tenders@himalaya.in,Limited,2013-03-14,Water & Sanitation
+V008,Metro Bridges & Civil,CIN-U45200HP2017PTC100959,DIR1007,"Plot 8, Industrial Area, Phase 4",Ambala,Haryana,+91-9801214437,tenders@metro.in,Partnership,2013-05-26,Electrical & Energy
+V009,Ganga Water Works Ltd,CIN-U45200HP2018PTC101096,DIR1008,"Plot 9, Industrial Area, Phase 1",Panchkula,Haryana,+91-9801387928,tenders@ganga.in,LLP,2013-08-07,Road Infrastructure
+V010,National Electrics Corp,CIN-U45200HP2019PTC101233,DIR1009,"Plot 10, Industrial Area, Phase 2",Dehradun,Uttarakhand,+91-9801561419,tenders@national.in,Proprietary,2013-10-19,Civil Construction
+V011,Pinnacle Urban Developers,CIN-U45200HP2010PTC101370,DIR1010,"Plot 11, Industrial Area, Phase 3",Haridwar,Uttarakhand,+91-9801734910,tenders@pinnacle.in,Private Limited,2013-12-31,Water & Sanitation
+V012,Surya Power & Infra,CIN-U45200HP2011PTC101507,DIR1006,"Plot 12, Industrial Area, Phase 4",Jaipur,Rajasthan,+91-172-278911,info@surya.com,Limited,2014-03-14,Electrical & Energy
+V013,Vanguard Engineering Works,CIN-U45200HP2012PTC101644,DIR1012,"Plot 13, Industrial Area, Phase 1",New Delhi,Delhi,+91-9802081892,tenders@vanguard.in,Partnership,2014-05-26,Road Infrastructure
+V014,Trident Infrastructure,CIN-U45200HP2013PTC101781,DIR1013,"Plot 14, Industrial Area, Phase 2",Shimla,Himachal Pradesh,+91-9802255383,tenders@trident.in,LLP,2014-08-07,Civil Construction
+V015,Everest Civil Projects,CIN-U45200HP2014PTC101918,DIR1014,"Plot 15, Industrial Area, Phase 3",Solan,Himachal Pradesh,+91-177-2804500,bids@everest-zenith-group.com,Proprietary,2014-10-19,Water & Sanitation
+V016,Zenith Builders Ltd,CIN-U45200HP2015PTC102055,DIR1015,"Plot 16, Industrial Area, Phase 4",Mandi,Himachal Pradesh,+91-177-2804500,bids@everest-zenith-group.com,Private Limited,2014-12-31,Electrical & Energy
+V017,Omkar Construction Co,CIN-U45200HP2016PTC102192,DIR1016,"Plot 17, Industrial Area, Phase 1",Dharamshala,Himachal Pradesh,+91-9802775856,tenders@omkar.in,Limited,2015-03-14,Road Infrastructure
+V018,Shree Ram Roadways,CIN-U45200HP2017PTC102329,DIR1017,"Plot 18, Industrial Area, Phase 2",Chandigarh,Punjab,+91-9802949347,tenders@shree.in,Partnership,2015-05-26,Civil Construction
+V019,Alliance Structural Engineers,CIN-U45200HP2018PTC102466,DIR1018,"Plot 19, Industrial Area, Phase 3",Mohali,Punjab,+91-9803122838,tenders@alliance.in,LLP,2015-08-07,Water & Sanitation
+V020,Prime Civil Consortium,CIN-U45200HP2019PTC102603,DIR1019,"Plot 20, Industrial Area, Phase 4",Ludhiana,Punjab,+91-9803296329,tenders@prime.in,Proprietary,2015-10-19,Electrical & Energy
+V021,Hilltop Earth Works,CIN-U45200HP2010PTC102740,DIR1020,"Plot 21, Industrial Area, Phase 1",Ambala,Haryana,+91-9803469820,tenders@hilltop.in,Private Limited,2015-12-31,Road Infrastructure
+V022,Dynamic Engineering Corp,CIN-U45200HP2011PTC102877,DIR1021,"Plot 22, Industrial Area, Phase 2",Panchkula,Haryana,+91-9803643311,tenders@dynamic.in,Limited,2016-03-13,Civil Construction
+V023,Blue Star Infrastructure,CIN-U45200HP2012PTC103014,DIR1022,"Plot 23, Industrial Area, Phase 3",Dehradun,Uttarakhand,+91-9803816802,tenders@blue.in,Partnership,2016-05-25,Water & Sanitation
+V024,Vertex Project Developers,CIN-U45200HP2013PTC103151,DIR1023,"Plot 24, Industrial Area, Phase 4",Haridwar,Uttarakhand,+91-9803990293,tenders@vertex.in,LLP,2016-08-06,Electrical & Energy
+V025,Royal Civil Builders,CIN-U45200HP2014PTC103288,DIR1024,"Plot 25, Industrial Area, Phase 1",Jaipur,Rajasthan,+91-9804163784,tenders@royal.in,Proprietary,2016-10-18,Road Infrastructure
+V026,Pioneer Construction Ltd,CIN-U45200HP2015PTC103425,DIR1025,"Plot 26, Industrial Area, Phase 2",New Delhi,Delhi,+91-9804337275,tenders@pioneer.in,Private Limited,2016-12-30,Civil Construction
+V027,Sunrise Contractors & Co,CIN-U45200HP2016PTC103562,DIR1026,"Plot 27, Industrial Area, Phase 3",Shimla,Himachal Pradesh,+91-9804510766,tenders@sunrise.in,Limited,2017-03-13,Water & Sanitation
+V028,Global Civil Ventures,CIN-U45200HP2017PTC103699,DIR1027,"Plot 28, Industrial Area, Phase 4",Solan,Himachal Pradesh,+91-9804684257,tenders@global.in,Partnership,2017-05-25,Electrical & Energy
+V029,Sovereign Infra Projects,CIN-U45200HP2018PTC103836,DIR1028,"Plot 29, Industrial Area, Phase 1",Mandi,Himachal Pradesh,+91-9804857748,tenders@sovereign.in,LLP,2017-08-06,Road Infrastructure
+V030,Universal Pipe & Utilities,CIN-U45200HP2019PTC103973,DIR1029,"Plot 30, Industrial Area, Phase 2",Dharamshala,Himachal Pradesh,+91-9805031239,tenders@universal.in,Proprietary,2017-10-18,Civil Construction
+V031,Regal Civil Works,CIN-U45200HP2010PTC104110,DIR1030,"Plot 31, Industrial Area, Phase 3",Chandigarh,Punjab,+91-9805204730,tenders@regal.in,Private Limited,2017-12-30,Water & Sanitation
+V032,Capital Infrastructure,CIN-U45200HP2011PTC104247,DIR1031,"Plot 32, Industrial Area, Phase 4",Mohali,Punjab,+91-9805378221,tenders@capital.in,Limited,2018-03-13,Electrical & Energy
+V033,Modern Builders & Fabricators,CIN-U45200HP2012PTC104384,DIR1032,"Plot 33, Industrial Area, Phase 1",Ludhiana,Punjab,+91-9805551712,tenders@modern.in,Partnership,2018-05-25,Road Infrastructure
+V034,Sigma Infra Solutions,CIN-U45200HP2013PTC104521,DIR1033,"Plot 34, Industrial Area, Phase 2",Ambala,Haryana,+91-9805725203,tenders@sigma.in,LLP,2018-08-06,Civil Construction
+V035,Alpha Civil Tech,CIN-U45200HP2014PTC104658,DIR1034,"Plot 35, Industrial Area, Phase 3",Panchkula,Haryana,+91-9805898694,tenders@alpha.in,Proprietary,2018-10-18,Water & Sanitation
+V036,Theta Construction Group,CIN-U45200HP2015PTC104795,DIR1035,"Plot 36, Industrial Area, Phase 4",Dehradun,Uttarakhand,+91-9806072185,tenders@theta.in,Private Limited,2018-12-30,Electrical & Energy
+V037,Falcon Engineering Works,CIN-U45200HP2016PTC104932,DIR1036,"Plot 37, Industrial Area, Phase 1",Haridwar,Uttarakhand,+91-9806245676,tenders@falcon.in,Limited,2019-03-13,Road Infrastructure
+V038,Sterling Civil Works,CIN-U45200HP2017PTC105069,DIR1037,"Plot 38, Industrial Area, Phase 2",Jaipur,Rajasthan,+91-9806419167,tenders@sterling.in,Partnership,2019-05-25,Civil Construction
+V039,Paramount Infra Projects,CIN-U45200HP2018PTC105206,DIR1038,"Plot 1, Industrial Area, Phase 1",New Delhi,Delhi,+91-9806592658,tenders@paramount.in,LLP,2019-08-06,Water & Sanitation
+V040,Diamond Civil Contractors,CIN-U45200HP2019PTC105343,DIR1039,"Plot 2, Industrial Area, Phase 2",Shimla,Himachal Pradesh,+91-9806766149,tenders@diamond.in,Proprietary,2019-10-18,Electrical & Energy
+V041,Crown Infrastructure Ltd,CIN-U45200HP2010PTC105480,DIR1000,"Plot 3, Industrial Area, Phase 3",Solan,Himachal Pradesh,+91-9806939640,tenders@crown.in,Private Limited,2019-12-30,Road Infrastructure
+V042,Ruby Builders & Developers,CIN-U45200HP2011PTC105617,DIR1001,"Plot 4, Industrial Area, Phase 4",Mandi,Himachal Pradesh,+91-9807113131,tenders@ruby.in,Limited,2020-03-12,Civil Construction
+V043,Emerald Construction,CIN-U45200HP2012PTC105754,DIR1002,"Plot 5, Industrial Area, Phase 1",Dharamshala,Himachal Pradesh,+91-9807286622,tenders@emerald.in,Partnership,2020-05-24,Water & Sanitation
+V044,Sapphire Infra Works,CIN-U45200HP2013PTC105891,DIR1003,"Plot 6, Industrial Area, Phase 2",Chandigarh,Punjab,+91-9807460113,tenders@sapphire.in,LLP,2020-08-05,Electrical & Energy
+V045,Horizon Civil Ventures,CIN-U45200HP2014PTC106028,DIR1004,"Plot 7, Industrial Area, Phase 3",Mohali,Punjab,+91-9807633604,tenders@horizon.in,Proprietary,2020-10-17,Road Infrastructure
+V046,Matrix Builders Ltd,CIN-U45200HP2015PTC106165,DIR1005,"Plot 8, Industrial Area, Phase 4",Ludhiana,Punjab,+91-9807807095,tenders@matrix.in,Private Limited,2020-12-29,Civil Construction
+V047,Nexus Infrastructure Co,CIN-U45200HP2016PTC106302,DIR1006,"Plot 9, Industrial Area, Phase 1",Ambala,Haryana,+91-9807980586,tenders@nexus.in,Limited,2021-03-12,Water & Sanitation
+V048,United Civil Developers,CIN-U45200HP2017PTC106439,DIR1007,"Plot 10, Industrial Area, Phase 2",Panchkula,Haryana,+91-9808154077,tenders@united.in,Partnership,2021-05-24,Electrical & Energy
+V049,Frontier Engineering Corp,CIN-U45200HP2018PTC106576,DIR1008,"Plot 11, Industrial Area, Phase 3",Dehradun,Uttarakhand,+91-9808327568,tenders@frontier.in,LLP,2021-08-05,Road Infrastructure
+V050,Supreme Roadways & Bridges,CIN-U45200HP2019PTC106713,DIR1009,"Plot 12, Industrial Area, Phase 4",Haridwar,Uttarakhand,+91-9808501059,tenders@supreme.in,Proprietary,2021-10-17,Civil Construction

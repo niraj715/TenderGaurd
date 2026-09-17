@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F1F5F9] text-slate-900 font-sans antialiased selection:bg-teal-500/20 selection:text-teal-900;
+    min-height: 100vh;
+    background-color: #F0F4F8;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(224, 242, 254, 0.6) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(204, 251, 241, 0.4) 0px, transparent 50%),
+      radial-gradient(at 50% 100%, rgba(241, 245, 249, 0.8) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Glass Card / Panel */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+}
+
+.glass-panel-interactive {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-interactive:hover {
+  background: #FFFFFF;
+  border-color: rgba(13, 148, 136, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -4px rgba(13, 148, 136, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+}
+
+/* Inputs */
+.glass-input {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #0F172A;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease;
+}
+.glass-input::placeholder {
+  color: #94A3B8;
+}
+.glass-input:focus {
+  outline: none;
+  border-color: #0D9488;
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.15);
+}
+
+/* Badges */
+.badge-critical {
+  @apply bg-red-50 text-red-600 border border-red-200 font-semibold;
+}
+.badge-high {
+  @apply bg-orange-50 text-orange-600 border border-orange-200 font-semibold;
+}
+.badge-medium {
+  @apply bg-amber-50 text-amber-600 border border-amber-200 font-semibold;
+}
+.badge-low {
+  @apply bg-emerald-50 text-emerald-600 border border-emerald-200 font-semibold;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* macOS Window dots */
+.window-dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.window-dot-red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FF5F56;
+}
+.window-dot-yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFBD2E;
+}
+.window-dot-green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #27C93F;
+}
+

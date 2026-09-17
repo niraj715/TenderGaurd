@@ -1,0 +1,46 @@
+tender_id,expected_indicator_codes,scenario_type,benchmark_alert
+T001,C1,Single bidder on open tender,True
+T002,"C2,C3",Few bidders with extremely short window,True
+T003,C4,Excessive technical disqualification,True
+T004,"C5,C8",Lowest bid rejected with narrow margin,True
+T005,"C7,C8",Identical bid prices and close runner-up,True
+T006,C9,Abnormally low predatory bid,True
+T007,C9,Abnormally high inflated bid,True
+T008,C10,Winning bid matches confidential budget,True
+T009,C11,Abnormal vendor win rate concentration,True
+T010,"C12,C13",Award concentration with single buyer,True
+T011,C14,Bid rotation among cartel cluster,True
+T012,C15,Repeated bidder group co-occurrence,True
+T013,C16,Consistent loser cover-bidding pattern,True
+T014,C17,Shared vendor directorship in competing bids,True
+T015,C18,High-value direct contracting risk,True
+T016,C19,Suspected contract splitting below threshold,True
+T017,C20,Unusual weekend midnight publication,True
+T018,"C7,C8,C17",Price collusion and shared corporate director,True
+T019,"C2,C8,C11","Few bidders, micro bid spread, dominant vendor",True
+T020,"C3,C4,C5","Short period, mass disqualification, rejected low bid",True
+T021,"C11,C12,C13",High win rate and repeat buyer awards lock-in,True
+T022,"C14,C15,C16",Bid rotation with persistent cover bidders,True
+T023,"C15,C17",Repeated bidder cohort sharing physical premises,True
+T024,"C1,C18",Sole source high-value procurement risk,True
+T025,"C9,C10,C12",Price outlier near budget with concentrated vendor,True
+T026,C6,Winning bid submitted seconds before deadline,True
+T027,"C8,C17",Suspiciously close bids with shared email domain,True
+T028,"C2,C10",Two bidders with winning bid at 99.9% of budget,True
+T029,"C4,C11",Mass disqualification leaving dominant contractor,True
+T030,"C13,C14",Sequential tender rotation between paired vendors,True
+T031,"C5,C9",Lowest bid disqualified in favor of +35% higher bid,True
+T032,"C3,C20",Short 4-day window published Saturday midnight,True
+T033,"C12,C17",Parent holding company entities winning majority,True
+T034,"C16,C17",Cover bidder consistently bidding +5% from same office,True
+T035,"C2,C3,C8,C17",Flagship multi-signal collusion cluster,True
+T040,,Standard competitive open tender (Clean benchmark control),False
+T050,,Standard competitive open tender (Clean benchmark control),False
+T060,,Standard competitive open tender (Clean benchmark control),False
+T070,,Standard competitive open tender (Clean benchmark control),False
+T080,,Standard competitive open tender (Clean benchmark control),False
+T090,,Standard competitive open tender (Clean benchmark control),False
+T100,,Standard competitive open tender (Clean benchmark control),False
+T110,,Standard competitive open tender (Clean benchmark control),False
+T120,,Standard competitive open tender (Clean benchmark control),False
+T130,,Standard competitive open tender (Clean benchmark control),False

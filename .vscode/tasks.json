@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Full Platform (All Services)",
+      "type": "shell",
+      "command": "./start.sh",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Start Backend Server",
+      "type": "shell",
+      "command": "./run_backend.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Frontend Dev Server",
+      "type": "shell",
+      "command": "./run_frontend.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Pytest Suite",
+      "type": "shell",
+      "command": "source backend/venv/bin/activate && PYTHONPATH=. pytest",
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}
