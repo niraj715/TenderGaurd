@@ -1,5 +1,22 @@
 import os
+from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+DEFAULT_DB_PATH = BASE_DIR / "procureshield.db"
+
+# Serverless environment handling (Vercel / AWS Lambda)
+if os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
+    import shutil
+    tmp_db = Path("/tmp/procureshield.db")
+    if not tmp_db.exists() and DEFAULT_DB_PATH.exists():
+        try:
+            shutil.copy2(str(DEFAULT_DB_PATH), str(tmp_db))
+        except Exception:
+            pass
+    default_db_url = f"sqlite:///{tmp_db}"
+else:
+    default_db_url = f"sqlite:///{DEFAULT_DB_PATH}"
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "ProcureShield AI"
@@ -10,10 +27,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7
     
-    DATABASE_URL: str = os.getenv(
-        "DATABASE_URL", 
-        "sqlite:////Users/nirajkumarsahani/.gemini/antigravity/scratch/procureshield/backend/procureshield.db"
-    )
+    DATABASE_URL: str = os.getenv("DATABASE_URL", default_db_url)
 
     WEIGHT_PROCUREMENT: float = 0.20
     WEIGHT_VENDOR_NETWORK: float = 0.15

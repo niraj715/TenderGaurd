@@ -25,16 +25,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include Routers
-app.include_router(auth.router, prefix=settings.API_V1_STR)
-app.include_router(tenders.router, prefix=settings.API_V1_STR)
-app.include_router(vendors.router, prefix=settings.API_V1_STR)
-app.include_router(projects.router, prefix=settings.API_V1_STR)
-app.include_router(complaints.router, prefix=settings.API_V1_STR)
-app.include_router(alerts.router, prefix=settings.API_V1_STR)
-app.include_router(investigations.router, prefix=settings.API_V1_STR)
-app.include_router(reviewers.router, prefix=settings.API_V1_STR)
-app.include_router(analytics.router, prefix=settings.API_V1_STR)
+# Include Routers with standard /api prefix
+all_routers = [
+    auth.router, tenders.router, vendors.router, projects.router,
+    complaints.router, alerts.router, investigations.router,
+    reviewers.router, analytics.router
+]
+for r in all_routers:
+    app.include_router(r, prefix=settings.API_V1_STR)
+    app.include_router(r)
 
 @app.get("/health")
 def health_check():
